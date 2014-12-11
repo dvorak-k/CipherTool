@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/morseToolMenu"
+        android:title="@string/morseToolName" />
+    <item
+        android:id="@+id/brailToolMenu"
+        android:title="@string/brailToolName" />
+    <item
+        android:id="@+id/caesarToolMenu"
+        android:title="@string/caesarToolName" />
+    <item
+        android:id="@+id/caesarSingleToolMenu"
+        android:title="@string/caesarSingleToolName" />
+    <item
+        android:id="@+id/letterSumToolMenu"
+        android:title="@string/letterSumToolName" />
+    <item
+        android:id="@+id/letterNumberSumToolMenu"
+        android:title="@string/letterNumberSumToolName" />
+    <item
+        android:id="@+id/numberSumToolMenu"
+        android:title="@string/numberSumToolName" />
+    <item
+        android:id="@+id/numberLetterSumToolMenu"
+        android:title="@string/numberLetterSumToolName" />
+    <item
+        android:id="@+id/wordSumToolMenu"
+        android:title="@string/wordSumToolName" />
+    <item
+        android:id="@+id/vigenereToolMenu"
+        android:title="@string/vigenereToolName" />
+    <item
+        android:id="@+id/autoclaveToolMenu"
+        android:title="@string/autoclaveToolName" />
+</menu>

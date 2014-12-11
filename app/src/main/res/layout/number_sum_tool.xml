@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/numberSumToolLayout"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+	<LinearLayout android:orientation="vertical" android:id="@+id/alphabetLayout" android:layout_height="wrap_content" android:layout_width="wrap_content">
+	
+		<TableLayout  android:background="@drawable/rectangle_background"  android:layout_width="wrap_content" android:layout_height="wrap_content" >
+			<TableRow  android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<Button android:id="@+id/Number0" android:text="@string/number0" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number1" android:text="@string/number1" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number2" android:text="@string/number2" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number3" android:text="@string/number3" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number4" android:text="@string/number4" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+				</TableRow>
+				<TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" >
+					<Button android:id="@+id/Number5" android:text="@string/number5" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number6" android:text="@string/number6" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number7" android:text="@string/number7" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number8" android:text="@string/number8" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number9" android:text="@string/number9" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+				</TableRow>
+		</TableLayout>
+	
+		<TableLayout  android:background="@drawable/rectangle_background"  android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+			<TableRow  android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<Button android:id="@+id/Number20" android:text="@string/number0" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number21" android:text="@string/number1" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number22" android:text="@string/number2" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number23" android:text="@string/number3" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number24" android:text="@string/number4" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+				</TableRow>
+				<TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<Button android:id="@+id/Number25" android:text="@string/number5" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number26" android:text="@string/number6" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number27" android:text="@string/number7" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number28" android:text="@string/number8" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number29" android:text="@string/number9" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+				</TableRow>
+		</TableLayout>
+		
+		<TableLayout  android:background="@drawable/rectangle_background"  android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+			<TableRow  android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<Button android:id="@+id/Number30" android:text="@string/number0" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number31" android:text="@string/number1" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number32" android:text="@string/number2" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number33" android:text="@string/number3" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number34" android:text="@string/number4" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+				</TableRow>
+				<TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<Button android:id="@+id/Number35" android:text="@string/number5" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number36" android:text="@string/number6" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number37" android:text="@string/number7" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number38" android:text="@string/number8" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number39" android:text="@string/number9" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+				</TableRow>
+		</TableLayout>
+		
+		<TableLayout  android:background="@drawable/rectangle_background"  android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+			<TableRow  android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<Button android:id="@+id/Number40" android:text="@string/number0" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number41" android:text="@string/number1" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number42" android:text="@string/number2" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number43" android:text="@string/number3" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number44" android:text="@string/number4" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+				</TableRow>
+				<TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<Button android:id="@+id/Number45" android:text="@string/number5" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number46" android:text="@string/number6" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number47" android:text="@string/number7" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number48" android:text="@string/number8" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/Number49" android:text="@string/number9" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+				</TableRow>
+		</TableLayout>
+	</LinearLayout>
+	<RadioGroup android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:id="@+id/radioGroup1">
+		<RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/encodeRadio" android:text="@string/plus" android:textSize="50sp" android:textStyle="bold" android:checked="true" />
+		<RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/decodeRadio" android:text="@string/minus" android:textSize="50sp" android:textStyle="bold"/>
+	</RadioGroup>
+	<CheckBox android:layout_width="wrap_content" android:id="@+id/aIndexCheckbox" android:layout_height="wrap_content" android:text="@string/aIsOne" android:layout_below="@+id/radioGroup1" android:layout_alignParentRight="true" android:checked="true"/>
+	<EditText android:layout_width="80dp" android:layout_height="wrap_content" android:id="@+id/secondText" android:editable="false" android:layout_below="@+id/firstText" android:layout_alignParentRight="true"/>
+	<EditText android:layout_width="80dp" android:layout_height="wrap_content" android:id="@+id/firstText" android:editable="false" android:layout_below="@+id/aIndexCheckbox" android:layout_alignParentRight="true" android:layout_marginTop="20dp">
+	</EditText>
+	<EditText android:layout_width="80dp" android:layout_height="wrap_content" android:id="@+id/outputText" android:editable="false" android:layout_below="@+id/secondText" android:layout_alignParentRight="true" android:layout_marginTop="20dp"/>
+	<EditText android:layout_width="80dp" android:layout_height="wrap_content" android:id="@+id/outputNumberText" android:editable="false" android:layout_below="@+id/outputText" android:layout_alignParentRight="true"/>
+	
+	
+    
+</RelativeLayout>

@@ -1,0 +1,15 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 8
+    buildToolsVersion "20.0.0"
+
+    defaultConfig {
+        applicationId "cz.dvorakk.ciphertool"
+        minSdkVersion 8
+        targetSdkVersion 8
+    }
+
+    buildTypes {
+    }
+}

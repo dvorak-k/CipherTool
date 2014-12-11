@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:id="@+id/letterSumToolLayout">
+
+	<LinearLayout android:orientation="vertical" android:id="@+id/alphabetLayout" android:layout_height="wrap_content" android:layout_width="wrap_content">
+		<TableLayout  android:background="@drawable/rectangle_background"  android:layout_width="wrap_content" android:layout_height="wrap_content" >
+				<TableRow  android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<Button android:id="@+id/ButtonA" android:text="@string/letterA" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonB" android:text="@string/letterB" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonC" android:text="@string/letterC" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonD" android:text="@string/letterD" android:layout_height="40dp" android:layout_width="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonE" android:text="@string/letterE" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+				</TableRow>
+				<TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<Button android:id="@+id/ButtonF" android:text="@string/letterF" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonG" android:text="@string/letterG" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonH" android:text="@string/letterH" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonI" android:text="@string/letterI" android:layout_height="40dp" android:layout_width="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonJ" android:text="@string/letterJ" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+				</TableRow>
+				<TableRow  android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<Button android:id="@+id/ButtonK" android:text="@string/letterK" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonL" android:text="@string/letterL" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonM" android:text="@string/letterM" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonN" android:text="@string/letterN" android:layout_height="40dp" android:layout_width="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonO" android:text="@string/letterO" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+				
+				</TableRow>
+				<TableRow  android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<Button android:id="@+id/ButtonP" android:text="@string/letterP" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonQ" android:text="@string/letterQ" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonR" android:text="@string/letterR" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonS" android:text="@string/letterS" android:layout_height="40dp" android:layout_width="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonT" android:text="@string/letterT" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+				</TableRow>
+				<TableRow  android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<Button android:id="@+id/ButtonU" android:text="@string/letterU" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonV" android:text="@string/letterV" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonW" android:text="@string/letterW" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonX" android:text="@string/letterX" android:layout_height="40dp" android:layout_width="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonY" android:text="@string/letterY" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonZ" android:text="@string/letterZ" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+				</TableRow>
+		</TableLayout>
+		<TableLayout  android:background="@drawable/rectangle_background"  android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+				<TableRow  android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<Button android:id="@+id/ButtonA2" android:text="@string/letterA" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonB2" android:text="@string/letterB" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonC2" android:text="@string/letterC" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonD2" android:text="@string/letterD" android:layout_height="40dp" android:layout_width="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonE2" android:text="@string/letterE" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+				</TableRow>
+				<TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<Button android:id="@+id/ButtonF2" android:text="@string/letterF" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonG2" android:text="@string/letterG" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonH2" android:text="@string/letterH" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonI2" android:text="@string/letterI" android:layout_height="40dp" android:layout_width="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonJ2" android:text="@string/letterJ" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+				</TableRow>
+				<TableRow  android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<Button android:id="@+id/ButtonK2" android:text="@string/letterK" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonL2" android:text="@string/letterL" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonM2" android:text="@string/letterM" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonN2" android:text="@string/letterN" android:layout_height="40dp" android:layout_width="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonO2" android:text="@string/letterO" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+				
+				</TableRow>
+				<TableRow  android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<Button android:id="@+id/ButtonP2" android:text="@string/letterP" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonQ2" android:text="@string/letterQ" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonR2" android:text="@string/letterR" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonS2" android:text="@string/letterS" android:layout_height="40dp" android:layout_width="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonT2" android:text="@string/letterT" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+				</TableRow>
+				<TableRow  android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<Button android:id="@+id/ButtonU2" android:text="@string/letterU" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonV2" android:text="@string/letterV" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonW2" android:text="@string/letterW" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonX2" android:text="@string/letterX" android:layout_height="40dp" android:layout_width="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonY2" android:text="@string/letterY" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+					<Button android:id="@+id/ButtonZ2" android:text="@string/letterZ" android:layout_width="40dp" android:layout_height="40dp" android:textStyle="bold"/>
+				</TableRow>
+		</TableLayout>
+		
+	</LinearLayout>
+	<RadioGroup android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:id="@+id/radioGroup1">
+		<RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/encodeRadio" android:text="@string/plus" android:textSize="50sp" android:textStyle="bold" android:checked="true" />
+		<RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/decodeRadio" android:text="@string/minus" android:textSize="50sp" android:textStyle="bold"/>
+	</RadioGroup>
+	<CheckBox android:layout_width="wrap_content" android:id="@+id/aIndexCheckbox" android:layout_height="wrap_content" android:text="@string/aIsOne" android:layout_below="@+id/radioGroup1" android:layout_alignParentRight="true" android:checked="true"/>
+	<EditText android:layout_width="80dp" android:layout_height="wrap_content" android:id="@+id/secondText" android:editable="false" android:layout_below="@+id/firstText" android:layout_alignParentRight="true"/>
+	<EditText android:layout_width="80dp" android:layout_height="wrap_content" android:id="@+id/firstText" android:editable="false" android:layout_below="@+id/aIndexCheckbox" android:layout_alignParentRight="true" android:layout_marginTop="20dp">
+		<requestFocus></requestFocus>
+	</EditText>
+	<EditText android:layout_width="80dp" android:layout_height="wrap_content" android:id="@+id/outputText" android:editable="false" android:layout_below="@+id/secondText" android:layout_alignParentRight="true" android:layout_marginTop="20dp"/>
+	<EditText android:layout_width="80dp" android:layout_height="wrap_content" android:id="@+id/outputNumberText" android:editable="false" android:layout_below="@+id/outputText" android:layout_alignParentRight="true"/>
+	
+	
+    
+</RelativeLayout>
